@@ -32,6 +32,20 @@ In complextree.py, json, re, treelib, collections, networkx, matplotlib, pydot, 
 
 You need to install these packages to successfully run my program. 
 
+I build both graph and tree for my project. In show_simple_tree and show_complex_tree, I used packages treelib, and networkx to visualize the tree. 
+For networkx, though I build tree, I visualize them using a graph. I build two classes, Tree and Simplified_Tree. In Tree, the elements are instances 
+of a new class called Language. In Simplified_Tree, the elements are instances of a new class called Simplified_Language. Tree class build more complex tree.
+It has more metadata of each Language instance. It does not contain Language instance that is a dialect. Simplified_Tree class build simpler tree.
+It has only the parent and children as metadata of each Simplified_Language instance. It contains dialects as Simplified_Language instance. The tree is constructed
+by specifying the children and parent of each node in the tree. 
+
+In lang_graph function, I used networkx to build a graph. Every node is a language in the list of 242 languages. Language paries that have similarity 
+distance higher than the threshold are connected by a line. The result will show similar languages form clusters. 
+
+complextree.py is the python file that constructs my graphs or trees from your stored data using classes.
+
+
+
 
 
 
