@@ -12,7 +12,9 @@ lang_list.json, new_language_distance_data_1-30.json, new_language_distance_data
 are the data I scraped from www.elinguistics.net. They are scraped using the python script scraping results wikipedia.ipynb. You can 
 open the file and see the language pairs that are scraped. 
 
-simpletree.ipynb contains the most basic function of my project, which is to show the tree of a linguistic tree using a package called treelib. 
+simpletree.ipynb contains the most basic function of my project, which is to show the tree of a linguistic tree using a package called treelib.
+It also contains the function to search for a language or linguistic unit in the language tree. And it can print the information of all the ancestors
+of a language in e lineage. It can print the metadata of any language in the tree. 
 
 complextree.ipynb contains more functions of my project. It can show a more complex graph of the tree using networkx. It can show a graph 
 of the languages with similar languages connected by lines and form into clusters using networkx. It can show the dendrogram of languages
