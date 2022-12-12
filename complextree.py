@@ -879,7 +879,6 @@ def lang_dendrogram(lang_dist_json,lang_list_json,json=None,start=None):
             list_1.append(sim_dict[(lang_1,lang_2)])
         list_2.append(list_1) 
     mat = np.array(list_2)
-    print(mat.shape)
     dists = squareform(mat)
     linkage_matrix = linkage(dists, "single")
     if start==None:
