@@ -44,7 +44,9 @@ distance higher than the threshold are connected by a line. The result will show
 
 complextree.py is the python file that constructs my graphs or trees from your stored data using classes.
 
+build_tree.py is the file I used to build tree from my json file.
 
+Because I am using class to build the tree rather than tuple, I do not have a json file for the tree.
 
 
 
