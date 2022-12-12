@@ -21,6 +21,14 @@ of the languages with similar languages connected by lines and form into cluster
 using their similarity distance matrix to visualize the evolution and divergence of language. This is done by using dendrogram, and linkage in 
 scipy.cluster.hierarchy, and squareform in scipy.spatial.distance. 
 
+interactive.ipynb is the file that a user could use to interact with the program. It use command line prompt to help you explore the linguistic 
+dataset. It import all the functions from complextree.py.
+
+There are many packages that are required for my program to work:
+
+In the two scraping files, urllib3, bs4, re, numpy, collections, time, json is required. 
+
+
 
 
 
