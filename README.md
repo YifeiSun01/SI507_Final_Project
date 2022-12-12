@@ -28,7 +28,7 @@ There are many packages that are required for my program to work:
 
 In the two scraping files, urllib3, bs4, re, numpy, collections, time, json is required. 
 
-In complextree.py, json, re, treelib, collections, networkx, matplotlib, pydot, itertools, scipy are required.
+In complextree.py, json, re, treelib, collections, networkx, matplotlib, pydot, itertools, scipy and numpy are required.
 
 You need to install these packages to successfully run my program. 
 
