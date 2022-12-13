@@ -7,7 +7,7 @@
 from complextree import *
 
 
-# In[10]:
+# In[2]:
 
 
 print("Welcome to Yifei Sun's final project for SI 507!")
@@ -111,7 +111,7 @@ while exit!= True:
     
 
 
-# In[13]:
+# In[4]:
 
 
 print("Search a language or linguistic unit")
@@ -173,7 +173,7 @@ while exit!= True:
                 exit=True  
 
 
-# In[16]:
+# In[5]:
 
 
 print("Find the lineage of a language or linguistic unit")
@@ -207,7 +207,7 @@ while exit!= True:
             
 
 
-# In[3]:
+# In[6]:
 
 
 print("Visualize the cluster of 242 languages")
@@ -223,7 +223,7 @@ while exit!= True:
             
 
 
-# In[4]:
+# In[ ]:
 
 
 import re
@@ -243,7 +243,10 @@ while exit!= True:
             start = answer_1
         try:
             for json in json_list:
-                lang_dendrogram("new_language_distance_data_total.json","lang_list.json",json=json,start=start)
+                try:
+                    lang_dendrogram("new_language_distance_data_total.json","lang_list.json",json=json,start=start)
+                except:
+                    pass
         except:
             print("The linguistic units you entered can not be drawn. Maybe a misspelling.")
 
